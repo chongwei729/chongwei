@@ -2,30 +2,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>My Personal Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="events.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">主页</a></li>
-                <li><a href="about.html">关于我</a></li>
-                <li><a href="contact.html">联系方式</a></li>
-            </ul>
+            
         </nav>
     </header>
 
     <main>
-        <h1>欢迎来到我的个人网站</h1>
-        <p>这里是一些关于我的介绍和我的工作。</p>
+        <div class="container">
+        <div class="left-content">
+            <img id="leverImage" src="images/lever.jpg" alt="lever" class="lever" onclick="changeImage('leverImage', 'images/lever.jpg', 'images/lever_pulled.jpg'); changeImage('myphoto', 'images/myphoto.jpg', 'images/myphoto1.jpg');" style="width: 50px; height: 50px; cursor: pointer;">
+            <img id="myphoto" src="images/myphoto.jpg" alt="My Photo" style="width: 300px; height: 250px;">
+
+            </button>
+            
+            <h1>Chongwei Chen</h1>
+            <p>Email: chen8596@umn.edu</p>
+            <p>Computer Science</p>
+            <p>2023 - 2027 At the University of Minnesota</p>
+            <p>GitHub: https://github.com/chongwei729</p>
+        </div>
+        <div class="right-content">
+            <h1>Specialty:</h1>
+        </div>
+    </div>
+
+    
     </main>
 
     <footer>
-        <p>联系邮箱：example@example.com</p>
-        <p>© 2024 我的个人网站</p>
+        <p>© 2024 Chongwei Chen</p>
     </footer>
 
-    <script src="js/script.js"></script>
 </body>
 </html>
