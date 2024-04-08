@@ -16,18 +16,19 @@ nav {
 
 main {
     padding: 20px;
-    .lever {
-        background-color: #f4f4f4c2; 
-        margin-bottom: 100px;
-    }
+
     .container {
         display: flex;
         justify-content: space-between;
     }
     
-    .left-content, .right-content {
+    .left-content {
         width: 50%;
-        padding: 20px;
+        padding: 30px;
+        .lever {
+            background-color: #f4f4f4c2; 
+            margin-bottom: 100px;
+        }
         h1 {
             margin-left: 50px;
             color: #333;
@@ -35,7 +36,20 @@ main {
         p {
             margin-left: 50px;
             color: #333;
-        } */
+        } 
+    }
+    
+    
+    .right-content {
+        position: absolute; 
+        right: 0;
+        top: 10%;
+        width: 60%;
+        padding: 20px;
+        .self-intro {
+            letter-spacing: 1px;
+            line-height: 1.8;
+        }
     }
 }
 
