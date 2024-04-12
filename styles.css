@@ -37,7 +37,19 @@ main {
             margin-left: 50px;
             color: #333;
         } 
+        a {
+            margin-left: 50px;
+            color: #333;
+        }
+
     }
+    .vertical-line {
+        border-left: 10px solid rgb(1,2,3);
+        height:550px; 
+        margin: 1 10px;
+ 
+      }
+      
     
     
     .right-content {
